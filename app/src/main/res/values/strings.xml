@@ -10,7 +10,7 @@
     <string name="beer_desc">beer description</string>
     <string name="next">Hit me!</string>
     <string name="no_desc">Description is unavailable at this moment.</string>
-    <string name="API_URL">https://api.brewerydb.com/v2/beer/random?key=0aa1cd608dfe52d8fcc8441ced95d37d</string>
+    <string name="API_URL">https://api.brewerydb.com/v2/beer/random?key=</string>
     <string name="search_hint">Let\'s see if we can find it!</string>
     <string name="title_activity_main2">Main2Activity</string>
     <string name="random_beer_pref"></string>
