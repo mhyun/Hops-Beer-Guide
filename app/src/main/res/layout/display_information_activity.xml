@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/display_information_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.michaelhyun.hopsbeerguide.MainActivityBeta"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:id="@+id/beer_iv"
+        android:scaleType="centerCrop"
+        android:src="@drawable/random_beer_image" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginVertical="16dp"
+        android:layout_below="@+id/beer_iv"
+        android:id="@+id/explore_layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/beer_name"
+            android:fontFamily="@font/roboto_regular"
+            android:textSize="24dp"
+            android:text="@string/beer_name" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/beer_description"
+                android:fontFamily="@font/opensans_light_italics"
+                android:textSize="16dp"
+                android:text="@string/beer_desc"/>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>
